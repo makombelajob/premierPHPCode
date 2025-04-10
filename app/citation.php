@@ -12,6 +12,7 @@ $citations = [
     "Pourquoi les squelettes ne se battent-ils jamais entre eux ? Ils n’ont pas le cran.",
     "Quel est le comble pour un électricien ? De ne pas être au courant."
 ];
+/***/
 function randomCitation($citation_hasard){
     $blagueChoice =  array_rand($citation_hasard);
     return $citation_hasard[$blagueChoice];
