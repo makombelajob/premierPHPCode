@@ -2,7 +2,7 @@
 
 **randomCitation** is a lightweight PHP function that returns a random quote from a given array. It’s useful for displaying random messages, jokes, quotes, or any text snippets in a dynamic way.
 
-![Screenshot of example usage](/app/assets/Screenshot.jpg)
+![Screenshot of example usage](/app/assets/Screenshot.png)
 ## 📁 File
 
 - `randomCitation.php` – Contains the function definition.
