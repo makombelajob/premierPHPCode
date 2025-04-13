@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="81078e80-55b0-49e0-8fcb-fda5a5be2a66" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp-1/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp-1/app/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp-3/app/Components/books.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp-3/app/Components/books.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-3/app/Components/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp-3/app/Components/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp-3/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp-3/app/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +32,10 @@
     &quot;accountId&quot;: &quot;25f7608b-100e-4105-b0be-a4e09e05d6c0&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -46,26 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.tp-1/docker-compose.yaml: Compose Deployment.executor": "Run",
-    "Docker.tp-2/docker-compose.yaml: Compose Deployment.executor": "Run",
-    "Docker.tp-3/docker-compose.yaml: Compose Deployment.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/makom/Documents/eedn-web/Courses/Benoit/backend/PHP/10-04-AM",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.tp-1/docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.tp-2/docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.tp-3/docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/makom/Documents/eedn-web/Courses/Benoit/backend/PHP/10-04-AM&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Docker.tp-1/docker-compose.yaml: Compose Deployment">
+}</component>
+  <component name="RunManager" selected="Docker.tp-3/docker-compose.yaml: Compose Deployment">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="tp-1/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -94,9 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.tp-3/docker-compose.yaml: Compose Deployment" />
         <item itemvalue="Docker.tp-1/docker-compose.yaml: Compose Deployment" />
         <item itemvalue="Docker.tp-2/docker-compose.yaml: Compose Deployment" />
-        <item itemvalue="Docker.tp-3/docker-compose.yaml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +118,7 @@
       <updated>1744532990809</updated>
       <workItem from="1744532992258" duration="51000" />
       <workItem from="1744533148483" duration="7825000" />
+      <workItem from="1744568701742" duration="2423000" />
     </task>
     <servers />
   </component>

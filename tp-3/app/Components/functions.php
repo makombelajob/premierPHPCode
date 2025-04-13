@@ -9,3 +9,13 @@ function addBook($title, $author, $year, $book){
     $book[] = $newBook;
     return $book;
 }
+
+function searchBooks($title, $books){
+
+    foreach ($books as $book){
+        if (($book['title']) === $title){
+            return $book;
+        }
+    }
+    return null;
+}

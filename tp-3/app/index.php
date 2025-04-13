@@ -7,6 +7,8 @@ require_once 'components/functions.php';
 //var_dump($bookStore);
 
 $bookStore = addBook('Négritude', 'Léopold', 1945, $bookStore);
+
+$searchResult = searchBooks('Les Misérables', $bookStore);
 ?>
 <!doctype html>
 <html lang="fr">
@@ -36,6 +38,24 @@ $bookStore = addBook('Négritude', 'Léopold', 1945, $bookStore);
             </div>
         <?php
         endforeach;
+        ?>
+        <p class="fs-1 text-center text-uppercase my-3">Partie du livre réchercher</p>
+        <?php
+        if ($searchResult){
+        ?>
+            <div class="col-6">
+                <article class="card my-3 shadow bg-info">
+                    <div class="card-body">
+                        <h2><?php echo $searchResult['title'] ;?></h2>
+                        <p><?php echo $searchResult['author'] ;?></p>
+                        <p><?php echo $searchResult['year'] ;?></p>
+                    </div>
+                </article>
+            </div>
+        <?php
+        } else {
+            echo '<p class="fs-1 color-danger text-uppercase">Livre non trouvé</p>';
+        }
         ?>
     </main>
 </body>
