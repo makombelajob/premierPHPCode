@@ -1,6 +1,7 @@
 services:
     apache:
         image: php:8.5-apache
+        container_name: apache_tp-3-10-04
         build:
             context: ./php
         ports:
@@ -12,9 +13,10 @@ services:
 
     mysql:
         image: mysql:8.0
+        container_name: mysql_tp-3-10-04
         environment:
-            MYSQL_ROOT_PASSWORD: tp1004AM
-            MYSQL_DATABASE: tp-10-04-AM
+            MYSQL_ROOT_PASSWORD: tp3admin
+            MYSQL_DATABASE: premierPHP3
             MYSQL_USER: johnny
             MYSQL_PASSWORD: johnny7791
         ports:
@@ -24,16 +26,18 @@ services:
 
     phpmyadmin:
         image: phpmyadmin
+        container_name: phpmyadmin_tp-3-10-04
         ports:
             -   "8081:80"
         environment:
             PMA_HOST: mysql
-            PMA_PASSWORD: tp1004AM
+            PMA_PASSWORD: sondage7791
         depends_on:
             -   mysql
 
     postgresql:
         image: bitnami/postgresql
+        container_name: postgresql_tp-3-10-04
         environment:
             POSTGRES_USER: user
             POSTGRES_PASSWORD: password
@@ -45,10 +49,10 @@ services:
 
     pgadmin:
         image: dpage/pgadmin4
-        container_name: pgadmin
+        container_name: pgadmin_tp-3-10-04
         environment:
-            PGADMIN_DEFAULT_EMAIL: admin@1004.am
-            PGADMIN_DEFAULT_PASSWORD: 1004am
+            PGADMIN_DEFAULT_EMAIL: admin@example.com
+            PGADMIN_DEFAULT_PASSWORD: admin
         ports:
             -   "8082:80"
         depends_on:
@@ -56,6 +60,7 @@ services:
 
     mail_hog:
         image: mailhog/mailhog
+        container_name: mailhog_tp-3-10-04
         logging:
             driver: 'none'
         ports:
