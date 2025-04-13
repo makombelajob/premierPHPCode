@@ -73,7 +73,7 @@ Build a basic library system where users can add, search, and display books.
 
 - PHP 8.x
 - HTML5
-- (Optional) CSS for styling
+- (Optional) Bootstrap CSS for styling
 
 ---
 
