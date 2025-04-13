@@ -59,13 +59,13 @@ Build a basic library system where users can add, search, and display books.
 ## 🖼️ Screenshots
 
 ### TP1 – Calculator  
-![TP1 Screenshot](files/screenshots-tp1.png)
+![TP1 Screenshot](files/screenshot-tp1.png)
 
 ### TP2 – Average citations  
-![TP1 Screenshot](files/screenshots-tp2.png)
+![TP1 Screenshot](files/screenshot-tp2.png)
 
 ### TP3 – Library Management  
-![TP3 Screenshot](files/screenshots-tp3.png)
+![TP3 Screenshot](files/screenshot-tp3.png)
 
 ---
 
