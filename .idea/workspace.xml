@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81078e80-55b0-49e0-8fcb-fda5a5be2a66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tp-3/app/Components/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/02avril.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les bases de PHP.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/Screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/citation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/livres.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-1/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp-1/app/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-3/app/Components/books.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp-3/app/Components/books.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-3/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp-3/app/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +63,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.tp-3/docker-compose.yaml: Compose Deployment">
+  <component name="RunManager" selected="Docker.tp-1/docker-compose.yaml: Compose Deployment">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml" />
       <method v="2" />
@@ -104,9 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.tp-3/docker-compose.yaml: Compose Deployment" />
-        <item itemvalue="Docker.tp-2/docker-compose.yaml: Compose Deployment" />
         <item itemvalue="Docker.tp-1/docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.tp-2/docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.tp-3/docker-compose.yaml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744532990809</updated>
       <workItem from="1744532992258" duration="51000" />
-      <workItem from="1744533148483" duration="4607000" />
+      <workItem from="1744533148483" duration="7825000" />
     </task>
     <servers />
   </component>

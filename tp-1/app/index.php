@@ -24,7 +24,17 @@ function avgCalcul($notes)
 <body>
 <main>
     <h1>Voici toutes les notes
-        <pre><?php var_dump($notesInit); ?></pre>
+        <h2> Les notes :
+            <?php
+            echo $notesInit[0];
+            ?> ,
+            <?php
+            echo $notesInit[1];
+            ?> ,
+            <?php
+            echo $notesInit[2];
+            ?>
+        </h2>
     </h1>
     <p>La note obtenue est de :
         <?php

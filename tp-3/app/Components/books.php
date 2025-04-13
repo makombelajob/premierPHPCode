@@ -2,7 +2,7 @@
 
 $bookStore = [
     [
-        "title" => "1984",
+        'title' => 'Unknown',
         "author" => "George Orwell",
         "year" => 1949
     ],
@@ -22,7 +22,7 @@ $bookStore = [
         "year" => 1942
     ],
     [
-        "title" => "Harry Potter and the Philosopher's Stone",
+        "title" => "Harry Potter",
         "author" => "J.K. Rowling",
         "year" => 1997
     ],
@@ -32,7 +32,7 @@ $bookStore = [
         "year" => 1953
     ],
     [
-        "title" => "The Lord of the Rings",
+        "title" => "Lord of the Rings",
         "author" => "J.R.R. Tolkien",
         "year" => 1954
     ]
